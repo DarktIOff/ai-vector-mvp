@@ -4,7 +4,7 @@ set -eu
 unsetopt BG_NICE
 
 PROJECT_DIR="${0:A:h}"
-PYTHON_BIN="${AI_VECTOR_PYTHON:-/Users/Melchior@Magi/Virtual Environment/gen_venv/bin/python}"
+PYTHON_BIN="${AI_VECTOR_PYTHON:-$PROJECT_DIR/.venv/bin/python}"
 BACKEND_HOST="127.0.0.1"
 BACKEND_PORT="8000"
 FRONTEND_HOST="127.0.0.1"

@@ -24,7 +24,7 @@
 Основной каталог:
 
 ```text
-/Users/Melchior@Magi/CA/ExpertComitee/Direction 2/MVP/rd/1_msp_db
+./rd/1_msp_db
 ```
 
 По результатам первичного обследования в каталоге находятся 166 файлов Excel:
@@ -61,7 +61,7 @@
 Каталог:
 
 ```text
-/Users/Melchior@Magi/CA/ExpertComitee/Direction 2/MVP/rd/AutoMSP
+./rd/AutoMSP
 ```
 
 Основные файлы:
@@ -85,7 +85,7 @@
 Файл:
 
 ```text
-/Users/Melchior@Magi/CA/ExpertComitee/Direction 2/MVP/rd/models_and_api_calls.txt
+./rd/models_and_api_calls.txt
 ```
 
 Он содержит OpenAI-совместимые примеры доступа к:
@@ -1447,10 +1447,10 @@ POST /api/ai/test
 Пример:
 
 ```dotenv
-MSP_HISTORY_ROOT=/Users/Melchior@Magi/CA/ExpertComitee/Direction 2/MVP/rd/1_msp_db
-AUTOMSP_ROOT=/Users/Melchior@Magi/CA/ExpertComitee/Direction 2/MVP/rd/AutoMSP
-MSP_REPORT_TEMPLATE=/Users/Melchior@Magi/CA/ExpertComitee/Direction 2/MVP/rd/AutoMSP/template.docx
-MSP_CODES_FILE=/Users/Melchior@Magi/CA/ExpertComitee/Direction 2/MVP/rd/AutoMSP/Коды.xlsx
+MSP_HISTORY_ROOT=./rd/1_msp_db
+AUTOMSP_ROOT=./rd/AutoMSP
+MSP_REPORT_TEMPLATE=./rd/AutoMSP/template.docx
+MSP_CODES_FILE=./rd/AutoMSP/Коды.xlsx
 APP_DATA_DIR=./var
 ```
 
