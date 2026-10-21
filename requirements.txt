@@ -1,0 +1,14 @@
+fastapi>=0.115
+uvicorn[standard]>=0.34
+sqlalchemy>=2.0
+pydantic-settings>=2.7
+openpyxl>=3.1
+xlrd>=2.0
+python-calamine>=0.8
+python-docx>=1.1
+docxtpl>=0.19
+matplotlib>=3.10
+openai>=1.60
+python-multipart>=0.0.20
+httpx>=0.28
+pytest>=8.3

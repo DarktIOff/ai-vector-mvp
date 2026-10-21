@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+set -eu
+
+PROJECT_DIR="${0:A:h}"
+PYTHON_BIN="${AI_VECTOR_PYTHON:-/Users/Melchior@Magi/Virtual Environment/gen_venv/bin/python}"
+
+if [[ ! -x "$PYTHON_BIN" ]]; then
+  print -u2 "Python не найден: $PYTHON_BIN"
+  print -u2 "Укажите путь через AI_VECTOR_PYTHON=/path/to/python."
+  exit 1
+fi
+
+cd "$PROJECT_DIR"
+export PYTHONDONTWRITEBYTECODE=1
+exec "$PYTHON_BIN" -B -m backend.certification "$@"
